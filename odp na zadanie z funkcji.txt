@@ -1,0 +1,153 @@
+
+zad1
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+<body>
+    <script>
+       
+        function circleArea(a) 
+        {
+            return a * 2 * Math.PI ; 
+        }
+
+        
+        let a = parseFloat(prompt('Podaj a'));
+       
+        
+            document.write('obw: ' +  circleArea(a));
+         
+    </script>
+</body>
+</html>
+
+zad 2
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+<body>
+    <script>
+       
+        function pole(a=1, b=1) 
+        {
+            return a * b ; 
+        }
+
+        
+        let a = parseFloat(prompt('Podaj a'));
+        let b = parseFloat(prompt('Podaj b'));
+        
+            document.write('pole prostokąta: ' +  pole(a, b));
+         
+    </script>
+</body>
+</html>
+
+zad 3
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+<body>
+    <script>
+       
+        function generateRandom(min , max) 
+        {
+            return Math.floor(Math.random()*(max-min+1)+min)
+        }
+
+        
+        let min = parseFloat(prompt('Podaj min'));
+        let max = parseFloat(prompt('Podaj max'));
+        let licznik = 0;
+        
+            document.write('pierwsza lizcba' +  generateRandom(min , max));
+            
+
+        let a = generateRandom(min , max)
+        if (a > 10) 
+        {
+            licznik = licznik + 1
+        }
+        let b = generateRandom(min , max)
+        if (b > 10) 
+        {
+            licznik = licznik + 1
+        }
+        let c = generateRandom(min , max)
+        if (c > 10)
+        {
+            licznik = licznik + 1
+        }
+        let d = generateRandom(min , max)
+        if (d > 10) 
+        {
+            licznik = licznik + 1
+        }
+        let e = generateRandom(min , max)
+        if (e > 10) 
+        {
+            licznik = licznik + 1
+        }
+
+
+
+        let f = generateRandom(min , max)
+        if (f > 10 )
+        {
+            licznik = licznik + 1
+        }
+        let g = generateRandom(min , max)
+        if (g > 10) 
+        {
+            licznik = licznik + 1
+        }
+        let h = generateRandom(min , max)
+        if (h > 10 )
+        {
+            licznik = licznik + 1
+        }
+        let i = generateRandom(min , max)
+        if (i > 10) 
+        {
+            licznik = licznik + 1
+        }
+        let j = generateRandom(min , max)
+        if (j > 10 )
+        {
+            licznik = licznik + 1
+        }
+
+
+        if (licznik >= 5)
+        {
+            document.write("test udany")
+        }
+        else
+        {
+            document.write("test nieudany")
+        }
+
+
+
+            //Stwórz funkcję generateRandom(min, max), 
+            //która będzie przyjmować dwie wartości - min i max. 
+            //Funkcja powinna zwrócić losową liczbę z podanego przedziału.
+            //Do generowania losowej liczby możesz użyć wzoru:
+            //Math.floor(Math.random()*(max-min+1)+min).
+            //Wykorzystaj ją do utworzenia 10 liczb z przedziału 1 - 20. 
+            //Jeżeli połowa z nich będzie większa od 10, wypisz na stronie tekst udało się, 
+            //w przeciwnym razie wypisz w konsoli tekst niestety nie.
+
+    </script>
+</body>
+</html>
