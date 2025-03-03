@@ -1,0 +1,10 @@
+Napisz prostą funkcję o nazwie circleArea(), funkcja dla podanego przez użytkownika promienia: np.  circleArea(1), ma wypisać na stronie tekst: Pole koła o promieniu: 1 wynosi: 3.141592653589793. 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+
+Napisz funkcję ze zdefiniowanymi wartościami domyślnymi (1,1). Funkcja ma się nazywać:  rectangleArea(), funkcja dla podanych przez użytkownika argumentów - boki a i b. np. rectangleArea(20,50), ma wypisać na stronie tekst: Pole prostokąta o bokach: 20 i 50 wynosi: 1000. 
+
+Stwórz funkcję generateRandom(min, max), która będzie przyjmować dwie wartości - min i max. Funkcja powinna zwrócić losową liczbę z podanego przedziału. Do generowania losowej liczby możesz użyć wzoru: Math.floor(Math.random()*(max-min+1)+min).
+Wykorzystaj ją do utworzenia 10 liczb z przedziału 1 - 20. Jeżeli połowa z nich będzie większa od 10, wypisz na stronie tekst udało się, w przeciwnym razie wypisz w konsoli tekst niestety nie.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
