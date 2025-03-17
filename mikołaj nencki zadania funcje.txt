@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <script>
+
+
+
+
+
+        function rentCost(days)
+        {
+            if (days == 1){
+                return 200;
+            }
+            else if (days>7){
+                return days * 150;
+            }
+            else if (3 < days < 8){
+                return days * 160;
+            }
+            else if (1< days < 4){
+                return days * 180;
+            }
+        }
+
+
+        function rabat(days)
+        {
+            
+            let b= Math.floor(days/7)
+            return b * 50;
+        }
+
+
+
+        let days = parseFloat(prompt('podaj liczbe dni'));
+
+        let cena=rentCost(days)
+
+        let a=rabat(days)
+
+
+        let cena_z_rabat= cena - a
+
+        document.write('Cena za wynajem pokuju na ' + days + ' dni wynosi: ' + cena_z_rabat + 'zł');
+      
+        document.write(' w tym rabat: ' + a + 'zł');
+        
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
